@@ -12,9 +12,9 @@ var defaultTheme = {
   block: {
     h2: {
       'font-size': '140%',
-      'text-align': 'center',
-      'font-weight': 'normal',
-      'text-align': 'center',
+      'text-align': 'left',
+      'font-weight': 'bold',
+      'text-align': 'left',
       'margin': '80px 10px 40px 10px'
     },
     h3: {
@@ -24,7 +24,8 @@ var defaultTheme = {
     },
     p: {
       'margin': '10px 10px',
-      'line-height': '1.6'
+      'line-height': '1.6',
+      'letter-spacing':'1px'
     },
     blockquote: {
       'color': 'rgb(91, 91, 91)',
