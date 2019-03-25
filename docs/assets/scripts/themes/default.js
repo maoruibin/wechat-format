@@ -1,9 +1,10 @@
 var defaultTheme = {
   BASE: {
     'text-align': 'left',
-    'color': '#3f3f3f',
+    'color': '#333',
     'line-height': '1.5',
-    'font-size': '16px',
+    'font-size': '15px',
+    'letter-spacing': '1px'
   },
   BASE_BLOCK: {
     'margin': '20px 10px'
@@ -23,15 +24,16 @@ var defaultTheme = {
       'margin': '40px 10px 20px 10px'
     },
     p: {
-      'margin': '10px 10px',
-      'line-height': '1.6',
-      'letter-spacing':'1px'
+      'margin': '24px 10px',
+      'white-space': 'normal',
+      'text-align': 'justify'
     },
     blockquote: {
       'color': 'rgb(91, 91, 91)',
       'padding': '1px 0 1px 10px',
       'background': 'rgba(158, 158, 158, 0.1)',
       'border-left': '3px solid rgb(158,158,158)',
+      'line-height': '1.2'
     },
     code: {
       'font-size': '80%',
@@ -78,16 +80,17 @@ var defaultTheme = {
     codespan: {
       'font-size': '90%',
       // 'font-family': FONT_FAMILY_MONO,
-      'color': '#ff3502',
-      'background': '#f8f5ec',
+      'color': '#3498db',
+      'background': '#e74c3c',
       'padding': '3px 5px',
       'border-radius': '2px',
     },
     link: {
-      'color': '#ff3502'
+      'color': '#e74c3c'
     },
     strong: {
-      'color': '#ff3502'
+      'color': '#e74c3c',
+      'font-weight': 'bold',
     },
     table: {
       'border-collapse': 'collapse',  
