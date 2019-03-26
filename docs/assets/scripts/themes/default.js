@@ -24,7 +24,7 @@ var defaultTheme = {
       'margin': '40px 10px 20px 10px'
     },
     p: {
-      'margin': '24px 10px',
+      'margin': '20px 10px',
       'white-space': 'normal',
       'text-align': 'justify'
     },
@@ -33,7 +33,7 @@ var defaultTheme = {
       'padding': '1px 0 1px 10px',
       'background': 'rgba(158, 158, 158, 0.1)',
       'border-left': '3px solid rgb(158,158,158)',
-      'line-height': '1.2'
+      'line-height': '1.0'
     },
     code: {
       'font-size': '80%',
@@ -50,7 +50,8 @@ var defaultTheme = {
       'border-radius': '4px',
       'display': 'block',
       'margin': '20px auto',
-      'width': '100%',
+      'width': '500px !important',
+      'height': 'auto !important'
     },
     image_org: {
       'border-radius': '4px',
